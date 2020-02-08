@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormsDemo.iOS", "Xam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormsDemo", "XamarinFormsDemo\XamarinFormsDemo.csproj", "{E491AD85-D55B-47A8-A951-9AE4028C0BF7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{70B361BC-AA56-400E-B19B-3ACEA12AAAD1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Tutorials\Mosh Hamedani\Udemy - Xamarin Forms Build Native Cross-platform Apps with C#\02 XAML Essentials\attached_files\019 Cheat Sheet\XAML-Essentials-Cheat-Sheet.pdf = ..\..\Tutorials\Mosh Hamedani\Udemy - Xamarin Forms Build Native Cross-platform Apps with C#\02 XAML Essentials\attached_files\019 Cheat Sheet\XAML-Essentials-Cheat-Sheet.pdf
+		..\..\Tutorials\Mosh Hamedani\Udemy - Xamarin Forms Build Native Cross-platform Apps with C#\02 XAML Essentials\attached_files\020 Exercise\XAML-Essentials-Exercise.pdf = ..\..\Tutorials\Mosh Hamedani\Udemy - Xamarin Forms Build Native Cross-platform Apps with C#\02 XAML Essentials\attached_files\020 Exercise\XAML-Essentials-Exercise.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

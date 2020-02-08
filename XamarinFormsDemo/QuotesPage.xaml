@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinFormsDemo.QuotesPage"
+             Padding="20">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+			Android="20, 30, 20, 20"
+			WinPhone="20, 40, 20, 20">
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Clicked="Next_Clicked" Text="Next" HorizontalOptions="Center"/>
+            <Label Text="{Binding Source={x:Reference fontSizeSlider},Path=Value, StringFormat='Font Size: {0:N0}'}" FontSize="16"/>
+            <Slider x:Name="fontSizeSlider"	Maximum="50" Minimum="16" />
+            <Label x:Name="quoteLabel" BindingContext="{x:Reference	fontSizeSlider}" FontSize="{Binding	Value}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
